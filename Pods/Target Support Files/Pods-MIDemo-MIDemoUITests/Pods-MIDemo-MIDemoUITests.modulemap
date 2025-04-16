@@ -1,0 +1,6 @@
+framework module Pods_MIDemo_MIDemoUITests {
+  umbrella header "Pods-MIDemo-MIDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

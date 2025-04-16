@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9EDCF75F001FAD26C573D83F /* Pods_MIDemo_MIDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01DA43732E2B73EACC12EF11 /* Pods_MIDemo_MIDemoUITests.framework */; };
+		B77C09E4E4D5A63A461C0CD2 /* Pods_MIDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D8AECA8BD1CAA5DD5ADA92 /* Pods_MIDemoTests.framework */; };
+		BE40279190BBEBCB1F8FD4DD /* Pods_MIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C5A28A76F773817A005869 /* Pods_MIDemo.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A69321FB2DAB16E200D15A17 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01DA43732E2B73EACC12EF11 /* Pods_MIDemo_MIDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MIDemo_MIDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D8AECA8BD1CAA5DD5ADA92 /* Pods_MIDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MIDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		060C8E9C57065B15AA786FED /* Pods-MIDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MIDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-MIDemoTests/Pods-MIDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0BC8C483680167535943ABDB /* Pods-MIDemo-MIDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MIDemo-MIDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-MIDemo-MIDemoUITests/Pods-MIDemo-MIDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2C0313BFB5ED8D557F179496 /* Pods-MIDemo-MIDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MIDemo-MIDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-MIDemo-MIDemoUITests/Pods-MIDemo-MIDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		486153F7D55F850AED48A7EE /* Pods-MIDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MIDemoTests.release.xcconfig"; path = "Target Support Files/Pods-MIDemoTests/Pods-MIDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		5723D1F726863A897ADA5E09 /* Pods-MIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MIDemo.debug.xcconfig"; path = "Target Support Files/Pods-MIDemo/Pods-MIDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7F24D2954F89AFCDF20E9115 /* Pods-MIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MIDemo.release.xcconfig"; path = "Target Support Files/Pods-MIDemo/Pods-MIDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A69321E42DAB16DE00D15A17 /* MIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69321FA2DAB16E200D15A17 /* MIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69322042DAB16E200D15A17 /* MIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C5A28A76F773817A005869 /* Pods_MIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MIDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE40279190BBEBCB1F8FD4DD /* Pods_MIDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B77C09E4E4D5A63A461C0CD2 /* Pods_MIDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EDCF75F001FAD26C573D83F /* Pods_MIDemo_MIDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05A034315A33330164234FA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5723D1F726863A897ADA5E09 /* Pods-MIDemo.debug.xcconfig */,
+				7F24D2954F89AFCDF20E9115 /* Pods-MIDemo.release.xcconfig */,
+				2C0313BFB5ED8D557F179496 /* Pods-MIDemo-MIDemoUITests.debug.xcconfig */,
+				0BC8C483680167535943ABDB /* Pods-MIDemo-MIDemoUITests.release.xcconfig */,
+				060C8E9C57065B15AA786FED /* Pods-MIDemoTests.debug.xcconfig */,
+				486153F7D55F850AED48A7EE /* Pods-MIDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9282B2325DA29B7B45064865 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0C5A28A76F773817A005869 /* Pods_MIDemo.framework */,
+				01DA43732E2B73EACC12EF11 /* Pods_MIDemo_MIDemoUITests.framework */,
+				02D8AECA8BD1CAA5DD5ADA92 /* Pods_MIDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A69321DB2DAB16DE00D15A17 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +133,8 @@
 				A69321FD2DAB16E200D15A17 /* MIDemoTests */,
 				A69322072DAB16E200D15A17 /* MIDemoUITests */,
 				A69321E52DAB16DE00D15A17 /* Products */,
+				05A034315A33330164234FA7 /* Pods */,
+				9282B2325DA29B7B45064865 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A693220D2DAB16E200D15A17 /* Build configuration list for PBXNativeTarget "MIDemo" */;
 			buildPhases = (
+				833B9ABA0F991F15474FCB40 /* [CP] Check Pods Manifest.lock */,
 				A69321E02DAB16DE00D15A17 /* Sources */,
 				A69321E12DAB16DE00D15A17 /* Frameworks */,
 				A69321E22DAB16DE00D15A17 /* Resources */,
+				64CFE9367C721154D91785BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +169,6 @@
 				A69321E62DAB16DE00D15A17 /* MIDemo */,
 			);
 			name = MIDemo;
-			packageProductDependencies = (
-			);
 			productName = MIDemo;
 			productReference = A69321E42DAB16DE00D15A17 /* MIDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A69322122DAB16E200D15A17 /* Build configuration list for PBXNativeTarget "MIDemoTests" */;
 			buildPhases = (
+				D894FD12780E327C64E1A155 /* [CP] Check Pods Manifest.lock */,
 				A69321F62DAB16E200D15A17 /* Sources */,
 				A69321F72DAB16E200D15A17 /* Frameworks */,
 				A69321F82DAB16E200D15A17 /* Resources */,
@@ -147,8 +191,6 @@
 				A69321FD2DAB16E200D15A17 /* MIDemoTests */,
 			);
 			name = MIDemoTests;
-			packageProductDependencies = (
-			);
 			productName = MIDemoTests;
 			productReference = A69321FA2DAB16E200D15A17 /* MIDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A69322152DAB16E200D15A17 /* Build configuration list for PBXNativeTarget "MIDemoUITests" */;
 			buildPhases = (
+				8BEC5B5C6B51416B0B780807 /* [CP] Check Pods Manifest.lock */,
 				A69322002DAB16E200D15A17 /* Sources */,
 				A69322012DAB16E200D15A17 /* Frameworks */,
 				A69322022DAB16E200D15A17 /* Resources */,
+				D4931BC757FF98F956D88EBF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,8 +214,6 @@
 				A69322072DAB16E200D15A17 /* MIDemoUITests */,
 			);
 			name = MIDemoUITests;
-			packageProductDependencies = (
-			);
 			productName = MIDemoUITests;
 			productReference = A69322042DAB16E200D15A17 /* MIDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -244,6 +286,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64CFE9367C721154D91785BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MIDemo/Pods-MIDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MIDemo/Pods-MIDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MIDemo/Pods-MIDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		833B9ABA0F991F15474FCB40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MIDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BEC5B5C6B51416B0B780807 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MIDemo-MIDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4931BC757FF98F956D88EBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MIDemo-MIDemoUITests/Pods-MIDemo-MIDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MIDemo-MIDemoUITests/Pods-MIDemo-MIDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MIDemo-MIDemoUITests/Pods-MIDemo-MIDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D894FD12780E327C64E1A155 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MIDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A69321E02DAB16DE00D15A17 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,11 +437,13 @@
 /* Begin XCBuildConfiguration section */
 		A693220E2DAB16E200D15A17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5723D1F726863A897ADA5E09 /* Pods-MIDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 657624W5D3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MIDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -296,6 +451,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,19 +459,25 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-.MIDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A693220F2DAB16E200D15A17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F24D2954F89AFCDF20E9115 /* Pods-MIDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 657624W5D3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MIDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -323,6 +485,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +493,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-.MIDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -373,7 +540,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -388,7 +555,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -436,7 +603,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -445,7 +612,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -457,12 +624,13 @@
 		};
 		A69322132DAB16E200D15A17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 060C8E9C57065B15AA786FED /* Pods-MIDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-.MIDemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -475,12 +643,13 @@
 		};
 		A69322142DAB16E200D15A17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 486153F7D55F850AED48A7EE /* Pods-MIDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-.MIDemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -493,6 +662,7 @@
 		};
 		A69322162DAB16E200D15A17 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C0313BFB5ED8D557F179496 /* Pods-MIDemo-MIDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -509,6 +679,7 @@
 		};
 		A69322172DAB16E200D15A17 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BC8C483680167535943ABDB /* Pods-MIDemo-MIDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

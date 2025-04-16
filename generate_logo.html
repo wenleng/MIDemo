@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate MI Logo</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        canvas {
+            border: 1px solid #ccc;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff5555;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        p {
+            margin-top: 10px;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>MI Logo Generator</h1>
+    <canvas id="logoCanvas" width="512" height="512"></canvas>
+    <button id="downloadBtn">Download Logo</button>
+    <p>右键点击图片另存为，然后添加到项目中</p>
+
+    <script>
+        const canvas = document.getElementById('logoCanvas');
+        const ctx = canvas.getContext('2d');
+        
+        // 清空画布
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        
+        // 设置背景为圆形
+        ctx.fillStyle = '#ff5555';
+        ctx.beginPath();
+        ctx.arc(256, 256, 206, 0, Math.PI * 2);
+        ctx.fill();
+        
+        // 绘制聊天气泡图标
+        ctx.fillStyle = 'white';
+        
+        // 左气泡
+        roundedRect(ctx, 120, 180, 160, 120, 20);
+        
+        // 右气泡
+        roundedRect(ctx, 230, 240, 160, 120, 20);
+        
+        // 添加文字 "MI"
+        ctx.fillStyle = 'white';
+        ctx.font = 'bold 100px Arial';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        ctx.fillText('MI', 256, 316);
+        
+        // 绘制圆角矩形的函数
+        function roundedRect(ctx, x, y, width, height, radius) {
+            ctx.beginPath();
+            ctx.moveTo(x + radius, y);
+            ctx.lineTo(x + width - radius, y);
+            ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+            ctx.lineTo(x + width, y + height - radius);
+            ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+            ctx.lineTo(x + radius, y + height);
+            ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+            ctx.lineTo(x, y + radius);
+            ctx.quadraticCurveTo(x, y, x + radius, y);
+            ctx.closePath();
+            ctx.fill();
+        }
+        
+        // 下载功能
+        document.getElementById('downloadBtn').addEventListener('click', function() {
+            const link = document.createElement('a');
+            link.download = 'app_logo.png';
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+        });
+    </script>
+</body>
+</html> 
